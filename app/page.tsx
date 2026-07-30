@@ -60,7 +60,7 @@ export default function Home() {
       setUser(result.user);
       Toast.fire({ icon: "success", title: "สมัครสมาชิกแล้ว", timer: 1500, showConfirmButton: false });
     } catch (error: any) {
-      Toast.fire({ icon: "error", title: "เกิดข้อผิดพลาด", text: error.message });
+      Toast.fire({ icon: "error", title: "เกิดข้อผิดพลาด", text: "กรุณากรอกอีเมลหรือรหัสผ่านให้ถูกต้อง" });
     }
   };
 
