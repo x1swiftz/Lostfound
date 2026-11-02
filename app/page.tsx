@@ -244,7 +244,7 @@ export default function Home() {
           <div className="space-y-4 animate-fade-in-up delay-200">
             <input
               type="email"
-              placeholder="อีเมล (เช่น user@school.ac.th)"
+              placeholder="อีเมล (เช่น user@gmail.com)"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className={glassInputClass}
