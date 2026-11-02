@@ -239,8 +239,11 @@ export default function Home() {
             <p className="text-white/60 text-sm">
               ระบบแจ้งของหาย และตามหาเจ้าของ<br/>เพื่อสังคมในโรงเรียนของเรา
             </p>
-            <p className="text-white/60 text-sm">
-              ระบบแจ้งของหาย และตามหาเจ้าของ<br/>เพื่อสังคมในโรงเรียนของเรา
+            <p 
+            className="text-purple-400 text-xs mt-2 font-medium"
+            style={{ filter: 'drop-shadow(0 0 8px rgba(168,85,247,0.5))' }}
+              >
+              (ใส่อีเมลและรหัสผ่านของคุณก่อนแล้วค่อยกดสมัครสมาชิกนะครับ)
             </p>
           </div>
 
