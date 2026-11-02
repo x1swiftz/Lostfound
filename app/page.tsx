@@ -239,6 +239,9 @@ export default function Home() {
             <p className="text-white/60 text-sm">
               ระบบแจ้งของหาย และตามหาเจ้าของ<br/>เพื่อสังคมในโรงเรียนของเรา
             </p>
+            <p className="text-white/60 text-sm">
+              ระบบแจ้งของหาย และตามหาเจ้าของ<br/>เพื่อสังคมในโรงเรียนของเรา
+            </p>
           </div>
 
           <div className="space-y-4 animate-fade-in-up delay-200">
